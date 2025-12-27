@@ -1,0 +1,12 @@
+# robots.txt — vividyard.com
+# Compatible with Googlebot, Bingbot, and Applebot.
+# Default: allow crawling of all public pages.
+
+User-agent: *
+Allow: /
+
+# Optional: prevent indexing of developer utilities
+Disallow: /tools/
+
+# Sitemaps (index + language splits)
+Sitemap: https://vividyard.com/sitemap.xml

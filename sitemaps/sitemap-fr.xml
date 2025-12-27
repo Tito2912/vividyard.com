@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- sitemaps/sitemap-fr.xml -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Accueil FR -->
+  <url>
+    <loc>https://vividyard.com/fr/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/"/>
+  </url>
+
+  <!-- Mentions légales (FR) -->
+  <url>
+    <loc>https://vividyard.com/fr/mentions-legales.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/legal-notice.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/legal-notice.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/mentions-legales.html"/>
+  </url>
+
+  <!-- Politique de confidentialité (FR) -->
+  <url>
+    <loc>https://vividyard.com/fr/politique-de-confidentialite.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/politique-de-confidentialite.html"/>
+  </url>
+
+  <!-- Blog index (FR) -->
+  <url>
+    <loc>https://vividyard.com/fr/blog.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/blog.html"/>
+  </url>
+
+  <!-- Article 1 (FR) -->
+  <url>
+    <loc>https://vividyard.com/fr/blog-1.html</loc>
+    <lastmod>2025-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/blog-1.html"/>
+  </url>
+</urlset>

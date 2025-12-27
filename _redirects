@@ -1,0 +1,40 @@
+# _redirects — Vividyard (Netlify)
+# Goal: canonical URLs, trailing slash for directories, language-friendly entry.
+# Notes:
+# - We canonicalize known directory endpoints to include a trailing slash.
+# - Pretty path helpers map to the actual .html files to avoid duplicates.
+# - Client-side JS handles first-visit FR auto-redirect with localStorage memory.
+#   (Netlify cannot read localStorage; cookie-based overrides are optional below.)
+
+##### Trailing-slash canonicalization for directories
+/fr        /fr/        301!
+/sitemaps  /sitemaps/  301!
+
+##### Canonical home variants
+/index.html      /     301!
+/fr/index.html   /fr/  301!
+
+##### Pretty path → actual file (EN)
+/blog                 /blog.html                 301!
+/blog-1               /blog-1.html               301!
+/legal-notice         /legal-notice.html         301!
+/privacy-policy       /privacy-policy.html       301!
+
+##### Pretty path → actual file (FR)
+/fr/blog                      /fr/blog.html                      301!
+/fr/blog-1                    /fr/blog-1.html                    301!
+/fr/mentions-legales          /fr/mentions-legales.html          301!
+/fr/politique-de-confidentialite  /fr/politique-de-confidentialite.html  301!
+
+##### Sitemaps convenience
+/sitemap                 /sitemap.xml                 301!
+/sitemaps/sitemap-en     /sitemaps/sitemap-en.xml     301!
+/sitemaps/sitemap-fr     /sitemaps/sitemap-fr.xml     301!
+
+##### (Optional) Server-side FR auto-redirect for root based on Accept-Language
+# If you decide to also honor a cookie-based preference at the edge, you can set
+# a cookie `langPref=en|fr` from your app and keep these two rules in order:
+# 1) If user previously chose EN, don’t redirect.
+/        /        200   Cookie:langPref=en
+# 2) If browser prefers French, send to /fr/ (temporary to let clients switch back).
+/        /fr/     302   Language=fr
