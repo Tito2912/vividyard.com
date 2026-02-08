@@ -4,7 +4,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Home (EN root, also x-default) -->
   <url>
-    <loc>https://vividyard.com/</loc>
+    <loc>https://vividyard.com/es/</loc>
     <lastmod>2026-01-24</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/"/>
@@ -17,7 +17,7 @@
 
   <!-- Legal notice (EN) -->
   <url>
-    <loc>https://vividyard.com/legal-notice.html</loc>
+    <loc>https://vividyard.com/es/legal-notice.html</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/legal-notice.html"/>
@@ -30,7 +30,7 @@
 
   <!-- Privacy policy (EN) -->
   <url>
-    <loc>https://vividyard.com/privacy-policy.html</loc>
+    <loc>https://vividyard.com/es/privacy-policy.html</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>yearly</changefreq>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/privacy-policy.html"/>
@@ -43,7 +43,7 @@
 
   <!-- Blog index (EN) -->
   <url>
-    <loc>https://vividyard.com/blog.html</loc>
+    <loc>https://vividyard.com/es/blog.html</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog.html"/>
@@ -56,7 +56,7 @@
 
   <!-- Blog post 1 (EN) -->
   <url>
-    <loc>https://vividyard.com/blog-1.html</loc>
+    <loc>https://vividyard.com/es/blog-1.html</loc>
     <lastmod>2025-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog-1.html"/>

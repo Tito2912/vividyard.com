@@ -10,7 +10,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/"/>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vividyard.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vividyard.com/de/"/>
+</url>
 
   <!-- Mentions légales (FR) -->
   <url>
@@ -20,7 +23,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/legal-notice.html"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/mentions-legales.html"/>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vividyard.com/es/legal-notice.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vividyard.com/de/legal-notice.html"/>
+</url>
 
   <!-- Politique de confidentialité (FR) -->
   <url>
@@ -30,7 +36,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/privacy-policy.html"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/politique-de-confidentialite.html"/>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vividyard.com/es/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vividyard.com/de/privacy-policy.html"/>
+</url>
 
   <!-- Blog index (FR) -->
   <url>
@@ -40,7 +49,10 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/blog.html"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/blog.html"/>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vividyard.com/es/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vividyard.com/de/blog.html"/>
+</url>
 
   <!-- Article 1 (FR) -->
   <url>
@@ -50,5 +62,8 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vividyard.com/blog-1.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://vividyard.com/blog-1.html"/>
     <xhtml:link rel="alternate" hreflang="fr-FR" href="https://vividyard.com/fr/blog-1.html"/>
-  </url>
+  
+    <xhtml:link rel="alternate" hreflang="es" href="https://vividyard.com/es/blog-1.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vividyard.com/de/blog-1.html"/>
+</url>
 </urlset>

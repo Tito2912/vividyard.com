@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="robots" content="index,follow,max-image-preview:large" />
-
-  <title>Comment créer des visuels pro avec Leonardo.ai (guide pas à pas) | Vividyard</title>
-  <meta name="description" content="Guide complet pour débuter avec Leonardo.ai : préparation, prompts, cohérence de style, canvas, upscaling, export, sécurité et dépannage. Tutos concrets et check-lists." />
-
-  <!-- Canonical & hreflang -->
-  <link rel="canonical" href="https://vividyard.com/fr/blog-1.html" />
-  <link rel="alternate" href="https://vividyard.com/blog-1.html" hreflang="x-default" />
-  <link rel="alternate" href="https://vividyard.com/blog-1.html" hreflang="en" />
-  <link rel="alternate" href="https://vividyard.com/fr/blog-1.html" hreflang="fr-FR" />
-
-  <!-- Preconnect (perf) -->
-  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
-  <link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin>
-  <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
-
-  <!-- Icons -->
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48.png">
-  <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-64.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/images/icon-512.png">
-  <link rel="mask-icon" href="/images/favicon.svg" color="#7B5CFF">
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="Vividyard">
-  <meta property="og:title" content="Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)">
-  <meta property="og:description" content="Prompts, cohérence, canvas, upscaling, export et sécurité — un guide pas à pas, pragmatique et neutre.">
-  <meta property="og:url" content="https://vividyard.com/fr/blog-1.html">
-  <meta property="og:image" content="https://vividyard.com/images/capture-hero-leonardo.ai-fr.png">
-  <meta property="og:image:alt" content="Interface Leonardo.ai — couverture tutoriel FR">
-  <meta property="og:locale" content="fr_FR">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)">
-  <meta name="twitter:description" content="De zéro au rendu publiable : méthodes, check-lists et bonnes pratiques avec Leonardo.ai.">
-  <meta name="twitter:image" content="https://vividyard.com/images/capture-hero-leonardo.ai-fr.png">
-
-  <!-- Theme (clair) -->
-  <meta name="theme-color" content="#F8FAFC" />
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/assets/styles.css" />
-
-  <!-- Google tag (gtag.js) — intégré exactement tel que fourni -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MSJJLZS55R"></script>
-  <script>
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Comment créer des visuels pro avec Leonardo.ai (guide pas…</title>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<meta name="description" content="Guide complet pour débuter avec Leonardo.ai : préparation, prompts, cohérence de style, canvas, upscaling, export, sécurité et dépannage."/>
+<!-- Canonical & hreflang -->
+<link rel="canonical" href="https://vividyard.com/fr/blog-1.html"/>
+<link href="https://vividyard.com/blog-1.html" hreflang="x-default" rel="alternate"/>
+<link href="https://vividyard.com/blog-1.html" hreflang="en" rel="alternate"/>
+<link href="https://vividyard.com/fr/blog-1.html" hreflang="fr-FR" rel="alternate"/>
+<link href="https://vividyard.com/es/blog-1.html" hreflang="es" rel="alternate"/>
+<link href="https://vividyard.com/de/blog-1.html" hreflang="de" rel="alternate"/>
+<!-- Preconnect (perf) -->
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""/>
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""/>
+<link rel="preconnect" href="https://www.youtube-nocookie.com" crossorigin=""/>
+<link rel="preconnect" href="https://i.ytimg.com" crossorigin=""/>
+<!-- Icons -->
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="/images/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/images/favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/images/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/images/favicon-48.png" rel="icon" sizes="48x48" type="image/png"/>
+<link href="/images/favicon-64.png" rel="icon" sizes="64x64" type="image/png"/>
+<link href="/images/apple-touch-icon-180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/images/icon-192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="/images/icon-512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link color="#7B5CFF" href="/images/favicon.svg" rel="mask-icon"/>
+<!-- Open Graph -->
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Vividyard"/>
+<meta property="og:title" content="Comment créer des visuels pro avec Leonardo.ai (guide pas…"/>
+<meta property="og:description" content="Guide complet pour débuter avec Leonardo.ai : préparation, prompts, cohérence de style, canvas, upscaling, export, sécurité et dépannage."/>
+<meta property="og:url" content="https://vividyard.com/fr/blog-1.html"/>
+<meta property="og:image" content="https://vividyard.com/images/capture-hero-leonardo.ai-fr.png"/>
+<meta property="og:image:alt" content="Interface Leonardo.ai — couverture tutoriel FR"/>
+<meta property="og:locale" content="fr_FR"/>
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Comment créer des visuels pro avec Leonardo.ai (guide pas…"/>
+<meta name="twitter:description" content="Guide complet pour débuter avec Leonardo.ai : préparation, prompts, cohérence de style, canvas, upscaling, export, sécurité et dépannage."/>
+<meta name="twitter:image" content="https://vividyard.com/images/capture-hero-leonardo.ai-fr.png"/>
+<!-- Theme (clair) -->
+<meta name="theme-color" content="#F8FAFC"/>
+<!-- Styles -->
+<link href="/assets/styles.css" rel="stylesheet"/>
+<!-- Google tag (gtag.js) — intégré exactement tel que fourni -->
+<!-- JSON-LD: Article -->
+<!-- JSON-LD: BreadcrumbList -->
+<meta name="twitter:url" content="https://vividyard.com/fr/blog-1.html"/><meta name="twitter:image:alt" content="Comment créer des visuels pro avec Leonardo.ai (guide pas…"/><link rel="preconnect" href="https://www.gstatic.com" crossorigin=""/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MSJJLZS55R"></script><script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-MSJJLZS55R');
-  </script>
-
-  <!-- JSON-LD: Article -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Article",
-    "headline":"Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)",
-    "description":"Tutoriel complet et pragmatique : préparation, prompts, cohérence de style, canvas, contrôles, upscaling, export, sécurité et dépannage.",
-    "image":["https://vividyard.com/images/capture-hero-leonardo.ai-fr.png"],
-    "author":{"@type":"Organization","name":"Vividyard"},
-    "publisher":{"@type":"Organization","name":"Vividyard","logo":{"@type":"ImageObject","url":"https://vividyard.com/images/vividyard-logo.png"}},
-    "datePublished":"2025-10-05",
-    "dateModified":"2025-10-05",
-    "inLanguage":"fr",
-    "mainEntityOfPage":{"@type":"WebPage","@id":"https://vividyard.com/fr/blog-1.html"}
+  </script><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)",
+  "description": "Tutoriel complet et pragmatique : préparation, prompts, cohérence de style, canvas, contrôles, upscaling, export, sécurité et dépannage.",
+  "image": [
+    "https://vividyard.com/images/capture-hero-leonardo.ai-fr.png"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Vividyard"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vividyard",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://vividyard.com/images/vividyard-logo.png"
+    }
+  },
+  "datePublished": "2025-10-05",
+  "dateModified": "2025-10-05",
+  "inLanguage": "fr-FR",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://vividyard.com/fr/blog-1.html"
   }
-  </script>
-
-  <!-- JSON-LD: BreadcrumbList -->
-  <script type="application/ld+json">
+}</script><script type="application/ld+json">
   {
     "@context":"https://schema.org",
     "@type":"BreadcrumbList",
@@ -92,413 +90,373 @@
       { "@type":"ListItem", "position":3, "name":"Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)", "item":"https://vividyard.com/fr/blog-1.html" }
     ]
   }
-  </script>
-</head>
-
+  </script></head>
 <body data-page="article-fr">
-  <a class="skip-link" href="#main">Aller au contenu</a>
-
-  <header class="site-header" role="banner" aria-label="En-tête du site">
-    <div class="container header-inner">
-      <a class="logo-link" href="/fr/" aria-label="Vividyard — Accueil">
-        <img src="/images/vividyard-logo.png" width="140" height="32" alt="Logo Vividyard" decoding="async" fetchpriority="high" />
-      </a>
-
-      <nav class="site-nav" role="navigation" aria-label="Navigation principale">
-        <ul class="nav-list">
-          <li><a href="/fr/blog.html">Blog</a></li>
-          <li><a href="/fr/mentions-legales.html">Mentions légales</a></li>
-          <li><a href="/fr/politique-de-confidentialite.html">Confidentialité</a></li>
-          <li class="lang-switcher">
-            <!-- Bouton unique : sur page FR, affiche “EN” -->
-            <button id="lang-toggle" class="lang-btn" aria-label="Basculer le site en anglais" aria-pressed="false" data-target="/blog-1.html">EN</button>
-            <noscript><a class="lang-fallback" href="/blog-1.html">EN</a></noscript>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="article">
-    <article class="section article-hero" aria-labelledby="post-title">
-      <div class="container">
-        <p class="eyebrow">Guide débutant</p>
-        <h1 id="post-title">Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)</h1>
-        <p class="post-meta"><time datetime="2025-10-05">5 octobre 2025</time> · ~12–16&nbsp;min de lecture</p>
-
-        <figure class="post-cover">
-          <img src="/images/capture-hero-leonardo.ai-fr.png" width="1200" height="630" alt="Couverture du tutoriel Leonardo.ai" loading="eager" decoding="async" />
-          <figcaption class="visually-hidden">Couverture illustrant un workflow d’images IA.</figcaption>
-        </figure>
-
-        <div class="cta-row">
-          <a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" target="_blank" rel="nofollow noopener sponsored">Try Leonardo.ai</a>
-          <a class="btn ghost" href="/fr/blog.html">Retour au blog</a>
-        </div>
-        <p class="disclosure">Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous.</p>
-        <p class="tiny trademark">“Leonardo.ai” is a trademark of its respective owner.</p>
-      </div>
-    </article>
-
-    <nav class="section toc" aria-label="Table des matières">
-      <div class="container">
-        <h2 class="visually-hidden">Sommaire</h2>
-        <ol class="toc-list">
-          <li><a href="#objectif">Objectif & résultat attendu</a></li>
-          <li><a href="#preparer">Préparer votre session (check-list)</a></li>
-          <li><a href="#tour">Tour d’interface en bref</a></li>
-          <li><a href="#prompts">Bien écrire ses prompts</a></li>
-          <li><a href="#coherence">Cohérence de style & de sujet</a></li>
-          <li><a href="#canvas">Canvas : itérations locales intelligentes</a></li>
-          <li><a href="#reglages">Réglages pratiques (guidance, seed, lots…)</a></li>
-          <li><a href="#upscaling">Upscaling, netteté & export</a></li>
-          <li><a href="#templates">Modèles de prompts par cas d’usage</a></li>
-          <li><a href="#conformite">Usage sûr & conforme</a></li>
-          <li><a href="#depannage">Dépannage : problèmes courants</a></li>
-          <li><a href="#productivite">Productivité & organisation</a></li>
-          <li><a href="#suite">Et la suite ?</a></li>
-          <li><a href="#faq-article">FAQ de l’article</a></li>
-        </ol>
-      </div>
-    </nav>
-
-    <section id="objectif" class="section" aria-labelledby="objectif-title">
-      <div class="container">
-        <h2 id="objectif-title">Objectif & résultat attendu</h2>
-        <p>
+<a class="skip-link" href="#main">Aller au contenu</a>
+<header aria-label="En-tête du site" class="site-header" role="banner">
+<div class="container header-inner">
+<a aria-label="Vividyard — Accueil" class="logo-link" href="/fr/">
+<img alt="Logo Vividyard" decoding="async" fetchpriority="high" height="32" src="/images/vividyard-logo.png" width="140"/>
+</a>
+<nav aria-label="Navigation principale" class="site-nav" role="navigation">
+<ul class="nav-list">
+<li><a href="/fr/blog.html">Blog</a></li>
+<li><a href="/fr/mentions-legales.html">Mentions légales</a></li>
+<li><a href="/fr/politique-de-confidentialite.html">Confidentialité</a></li>
+<li class="lang-switcher">
+<a aria-pressed="false" class="lang-btn" href="/blog-1.html">EN</a>
+<a aria-pressed="true" class="lang-btn" href="/fr/blog-1.html">FR</a>
+<a aria-pressed="false" class="lang-btn" href="/es/blog-1.html">ES</a>
+<a aria-pressed="false" class="lang-btn" href="/de/blog-1.html">DE</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<main class="article" id="main">
+<article aria-labelledby="post-title" class="section article-hero">
+<div class="container">
+<p class="eyebrow">Guide débutant</p>
+<h1 id="post-title">Comment créer des visuels pro avec Leonardo.ai (guide pas à pas)</h1>
+<p class="post-meta"><time datetime="2025-10-05">5 octobre 2025</time> · ~12–16 min de lecture</p>
+<figure class="post-cover">
+<img alt="Couverture du tutoriel Leonardo.ai" decoding="async" height="630" loading="eager" src="/images/capture-hero-leonardo.ai-fr.png" width="1200"/>
+<figcaption class="visually-hidden">Couverture illustrant un workflow d’images IA.</figcaption>
+</figure>
+<div class="cta-row">
+<a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" rel="nofollow noopener sponsored noreferrer" target="_blank">Try Leonardo.ai</a>
+<a class="btn ghost" href="/fr/blog.html">Retour au blog</a>
+</div>
+<p class="disclosure">Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous.</p>
+<p class="tiny trademark">“Leonardo.ai” is a trademark of its respective owner.</p>
+</div>
+</article>
+<nav aria-label="Table des matières" class="section toc">
+<div class="container">
+<h2 class="visually-hidden">Sommaire</h2>
+<ol class="toc-list">
+<li><a href="#objectif">Objectif &amp; résultat attendu</a></li>
+<li><a href="#preparer">Préparer votre session (check-list)</a></li>
+<li><a href="#tour">Tour d’interface en bref</a></li>
+<li><a href="#prompts">Bien écrire ses prompts</a></li>
+<li><a href="#coherence">Cohérence de style &amp; de sujet</a></li>
+<li><a href="#canvas">Canvas : itérations locales intelligentes</a></li>
+<li><a href="#reglages">Réglages pratiques (guidance, seed, lots…)</a></li>
+<li><a href="#upscaling">Upscaling, netteté &amp; export</a></li>
+<li><a href="#templates">Modèles de prompts par cas d’usage</a></li>
+<li><a href="#conformite">Usage sûr &amp; conforme</a></li>
+<li><a href="#depannage">Dépannage : problèmes courants</a></li>
+<li><a href="#productivite">Productivité &amp; organisation</a></li>
+<li><a href="#suite">Et la suite ?</a></li>
+<li><a href="#faq-article">FAQ de l’article</a></li>
+</ol>
+</div>
+</nav>
+<section aria-labelledby="objectif-title" class="section" id="objectif">
+<div class="container">
+<h2 id="objectif-title">Objectif &amp; résultat attendu</h2>
+<p>
           Ce guide vous accompagne de la page blanche à un rendu publiable, sans jargon superflu. Vous apprendrez à
           transformer une intention visuelle en images cohérentes, en contrôlant la lumière, la composition et la
           texture, puis à finaliser un export adapté au web, au social ou à l’e-commerce. Les noms et options des
           fonctionnalités peuvent évoluer : consultez le site officiel pour les informations à jour avant un projet
           critique.
         </p>
-        <ul class="bullet">
-          <li>Savoir structurer un prompt orienté composition et éclairage.</li>
-          <li>Maintenir une cohérence de style sur une série d’images.</li>
-          <li>Corriger localement via le canvas au lieu de tout régénérer.</li>
-          <li>Exporter des fichiers propres, reproductibles et bien nommés.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="preparer" class="section" aria-labelledby="preparer-title">
-      <div class="container">
-        <h2 id="preparer-title">Préparer votre session (check-list)</h2>
-        <ol class="steps">
-          <li><strong>Créer/ouvrir votre compte</strong> et vérifier votre plan. Les offres peuvent changer ; reportez-vous au site officiel.</li>
-          <li><strong>Définir l’objectif</strong> : miniature, visuel de bannière, key visual de campagne, concept art, packshot produit, etc.</li>
-          <li><strong>Rassembler 3–5 références</strong> : palette, textures, angles, exemples maison — idéaux pour la cohérence.</li>
-          <li><strong>Rédiger un premier prompt</strong> avec sujet, décor, lumière, style, matériaux, contraintes de qualité.</li>
-          <li><strong>Lancer de petits lots</strong> (2–4 variations) pour comparer rapidement.</li>
-          <li><strong>Itérer</strong> sur la meilleure piste : ajuster un paramètre à la fois, garder des notes.</li>
-          <li><strong>Exporter proprement</strong> : conserver une version maître + versions optimisées.</li>
-        </ol>
-        <div class="cta-row">
-          <a class="btn secondary" href="AFFILIATE_URL_PLACEHOLDER" target="_blank" rel="nofollow noopener sponsored">Ouvrir Leonardo.ai</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="tour" class="section" aria-labelledby="tour-title">
-      <div class="container">
-        <h2 id="tour-title">Tour d’interface en bref</h2>
-        <p>
+<ul class="bullet">
+<li>Savoir structurer un prompt orienté composition et éclairage.</li>
+<li>Maintenir une cohérence de style sur une série d’images.</li>
+<li>Corriger localement via le canvas au lieu de tout régénérer.</li>
+<li>Exporter des fichiers propres, reproductibles et bien nommés.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="preparer-title" class="section" id="preparer">
+<div class="container">
+<h2 id="preparer-title">Préparer votre session (check-list)</h2>
+<ol class="steps">
+<li><strong>Créer/ouvrir votre compte</strong> et vérifier votre plan. Les offres peuvent changer ; reportez-vous au site officiel.</li>
+<li><strong>Définir l’objectif</strong> : miniature, visuel de bannière, key visual de campagne, concept art, packshot produit, etc.</li>
+<li><strong>Rassembler 3–5 références</strong> : palette, textures, angles, exemples maison — idéaux pour la cohérence.</li>
+<li><strong>Rédiger un premier prompt</strong> avec sujet, décor, lumière, style, matériaux, contraintes de qualité.</li>
+<li><strong>Lancer de petits lots</strong> (2–4 variations) pour comparer rapidement.</li>
+<li><strong>Itérer</strong> sur la meilleure piste : ajuster un paramètre à la fois, garder des notes.</li>
+<li><strong>Exporter proprement</strong> : conserver une version maître + versions optimisées.</li>
+</ol>
+<div class="cta-row">
+<a class="btn secondary" href="AFFILIATE_URL_PLACEHOLDER" rel="nofollow noopener sponsored noreferrer" target="_blank">Ouvrir Leonardo.ai</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="tour-title" class="section" id="tour">
+<div class="container">
+<h2 id="tour-title">Tour d’interface en bref</h2>
+<p>
           La majorité des outils d’images IA partagent un schéma commun : zone de prompt, choix de modèle/style,
           contrôles de génération (format, guidance, seed), un <em>canvas</em> pour les retouches locales, et une
           galerie/historique. Les intitulés peuvent différer, mais cette carte mentale vous garde orienté.
         </p>
-        <ul class="bullet">
-          <li><strong>Prompt</strong> : décrit scène, lumière, style, matériaux.</li>
-          <li><strong>Modèle/Style</strong> : moteur général ou style personnalisé si disponible.</li>
-          <li><strong>Contrôles</strong> : résolution, guidance/strength, seed/variations, taille de lot.</li>
-          <li><strong>Canvas</strong> : masquage, inpaint/outpaint, retouches séquencées.</li>
-          <li><strong>Galerie</strong> : versions, comparaisons, restauration d’états.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="prompts" class="section" aria-labelledby="prompts-title">
-      <div class="container">
-        <h2 id="prompts-title">Bien écrire ses prompts</h2>
-        <p>
+<ul class="bullet">
+<li><strong>Prompt</strong> : décrit scène, lumière, style, matériaux.</li>
+<li><strong>Modèle/Style</strong> : moteur général ou style personnalisé si disponible.</li>
+<li><strong>Contrôles</strong> : résolution, guidance/strength, seed/variations, taille de lot.</li>
+<li><strong>Canvas</strong> : masquage, inpaint/outpaint, retouches séquencées.</li>
+<li><strong>Galerie</strong> : versions, comparaisons, restauration d’états.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="prompts-title" class="section" id="prompts">
+<div class="container">
+<h2 id="prompts-title">Bien écrire ses prompts</h2>
+<p>
           Un bon prompt est un mini-brief orienté <em>composition</em> et <em>lumière</em>. Évitez les adjectifs vagues ;
           privilégiez des mots qui réorganisent réellement la scène.
         </p>
-
-        <h3>Structure conseillée</h3>
-        <ul class="bullet">
-          <li><strong>Sujet + action</strong> : « bouteille inox sur fond dégradé, trois-quarts ».</li>
-          <li><strong>Environnement</strong> : « studio softbox, reflet contrôlé, arrière-plan lisse ».</li>
-          <li><strong>Style</strong> : « photo produit, minimal, éditorial, profondeur de champ légère ».</li>
-          <li><strong>Matériaux/couleurs</strong> : « acier brossé, accents cyan, tons neutres ».</li>
-          <li><strong>Qualité</strong> : « détails nets, bords propres, pas de filigrane, pas de texte ».</li>
-        </ul>
-
-        <p class="example">
-          <strong>Exemple de prompt :</strong> « bouteille d’eau inox sur fond dégradé clair, angle trois-quarts,
+<h3>Structure conseillée</h3>
+<ul class="bullet">
+<li><strong>Sujet + action</strong> : « bouteille inox sur fond dégradé, trois-quarts ».</li>
+<li><strong>Environnement</strong> : « studio softbox, reflet contrôlé, arrière-plan lisse ».</li>
+<li><strong>Style</strong> : « photo produit, minimal, éditorial, profondeur de champ légère ».</li>
+<li><strong>Matériaux/couleurs</strong> : « acier brossé, accents cyan, tons neutres ».</li>
+<li><strong>Qualité</strong> : « détails nets, bords propres, pas de filigrane, pas de texte ».</li>
+</ul>
+<p class="example">
+<strong>Exemple de prompt :</strong> « bouteille d’eau inox sur fond dégradé clair, angle trois-quarts,
           lumière studio douce avec léger rim light, photo produit minimal éditorial, acier brossé, accents cyan,
           bords propres, détails nets, pas de texte ».
         </p>
-
-        <h3>Références & négatifs</h3>
-        <p>
+<h3>Références &amp; négatifs</h3>
+<p>
           Si l’outil le propose, ajoutez une <em>image de référence</em> pour ancrer composition, texture ou palette.
           Associez un court <em>negative prompt</em> (« pas de texte/filigrane, pas de mains supplémentaires, pas de cadre »).
         </p>
-
-        <h3>Itérer avec méthode</h3>
-        <ul class="bullet">
-          <li>Ne changer qu’<strong>un paramètre à la fois</strong> (angle, lumière, arrière-plan…).</li>
-          <li><strong>Consigner</strong> ce qui améliore ou dégrade — 3 lignes suffisent.</li>
-          <li><strong>Verrouiller la seed</strong> quand vous voulez explorer de petites variations autour d’un cadrage qui vous plaît.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="coherence" class="section" aria-labelledby="coherence-title">
-      <div class="container">
-        <h2 id="coherence-title">Cohérence de style & de sujet</h2>
-        <p>
+<h3>Itérer avec méthode</h3>
+<ul class="bullet">
+<li>Ne changer qu’<strong>un paramètre à la fois</strong> (angle, lumière, arrière-plan…).</li>
+<li><strong>Consigner</strong> ce qui améliore ou dégrade — 3 lignes suffisent.</li>
+<li><strong>Verrouiller la seed</strong> quand vous voulez explorer de petites variations autour d’un cadrage qui vous plaît.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="coherence-title" class="section" id="coherence">
+<div class="container">
+<h2 id="coherence-title">Cohérence de style &amp; de sujet</h2>
+<p>
           La cohérence repose sur la répétition contrôlée : mêmes termes, mêmes conditions d’éclairage et, si disponible,
           <em>styles/modèles personnalisés</em>. Leur disponibilité, coût et limites peuvent évoluer dans le temps.
         </p>
-        <ol class="steps">
-          <li><strong>Fiche de style</strong> : listez palette, textures, vocabulaire de lumière (ex. « rim light doux »), objectifs (contraste, DOF).</li>
-          <li><strong>Description stable du sujet</strong> : « manette de jeu noire brillante, anneau bleu ».</li>
-          <li><strong>Indices de cadrage</strong> : « 45°, plan trois-quarts, centrée, espace de respiration ».</li>
-          <li><strong>Style/model personnalisé</strong> : si proposé, entraînez avec des exemples propres et cohérents (lumière homogène, fonds neutres).</li>
-          <li><strong>Versioning</strong> : dupliquez avant gros changements, conservez prompts + seeds gagnantes.</li>
-        </ol>
-        <div class="note muted">Astuce : testez 3–4 variations par itération. La comparaison côte à côte accélère les décisions.</div>
-      </div>
-    </section>
-
-    <section id="canvas" class="section" aria-labelledby="canvas-title">
-      <div class="container">
-        <h2 id="canvas-title">Canvas : itérations locales intelligentes</h2>
-        <p>
+<ol class="steps">
+<li><strong>Fiche de style</strong> : listez palette, textures, vocabulaire de lumière (ex. « rim light doux »), objectifs (contraste, DOF).</li>
+<li><strong>Description stable du sujet</strong> : « manette de jeu noire brillante, anneau bleu ».</li>
+<li><strong>Indices de cadrage</strong> : « 45°, plan trois-quarts, centrée, espace de respiration ».</li>
+<li><strong>Style/model personnalisé</strong> : si proposé, entraînez avec des exemples propres et cohérents (lumière homogène, fonds neutres).</li>
+<li><strong>Versioning</strong> : dupliquez avant gros changements, conservez prompts + seeds gagnantes.</li>
+</ol>
+<div class="note muted">Astuce : testez 3–4 variations par itération. La comparaison côte à côte accélère les décisions.</div>
+</div>
+</section>
+<section aria-labelledby="canvas-title" class="section" id="canvas">
+<div class="container">
+<h2 id="canvas-title">Canvas : itérations locales intelligentes</h2>
+<p>
           Le canvas sert à corriger <em>localement</em> sans tout régénérer. Masquez la zone à corriger, guidez avec un
           sous-prompt concis et laissez le reste intact. Un léger adoucissement des bords du masque évite les coutures.
         </p>
-        <ul class="bullet">
-          <li><strong>Inpaint</strong> : main, logo, texture — retouchez au scalpel.</li>
-          <li><strong>Outpaint</strong> : étendez le cadre pour bannières, miniatures, diaporamas.</li>
-          <li><strong>Retouches de bord</strong> : corrigez artefacts apparus après recadrage ou upscale.</li>
-          <li><strong>Multi-étapes</strong> : arrière-plan → sujet → micro-textures — une étape par passe.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="reglages" class="section" aria-labelledby="reglages-title">
-      <div class="container">
-        <h2 id="reglages-title">Réglages pratiques (guidance, seed, lots…)</h2>
-        <p>
+<ul class="bullet">
+<li><strong>Inpaint</strong> : main, logo, texture — retouchez au scalpel.</li>
+<li><strong>Outpaint</strong> : étendez le cadre pour bannières, miniatures, diaporamas.</li>
+<li><strong>Retouches de bord</strong> : corrigez artefacts apparus après recadrage ou upscale.</li>
+<li><strong>Multi-étapes</strong> : arrière-plan → sujet → micro-textures — une étape par passe.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="reglages-title" class="section" id="reglages">
+<div class="container">
+<h2 id="reglages-title">Réglages pratiques (guidance, seed, lots…)</h2>
+<p>
           Les noms diffèrent selon les plateformes, mais la logique reste similaire :
         </p>
-        <ul class="bullet">
-          <li><strong>Guidance/strength</strong> : fidélité au prompt. Trop haut = rigidité ; trop bas = dérive.</li>
-          <li><strong>Résolution/ratio</strong> : commencez modeste pour itérer vite ; upscalez quand le cadrage est validé.</li>
-          <li><strong>Seed/variations</strong> : lock = reproductibilité ; unlock = exploration.</li>
-          <li><strong>Taille de lot</strong> : 2–4 images évitent de saturer la galerie tout en comparant efficacement.</li>
-        </ul>
-        <p>
+<ul class="bullet">
+<li><strong>Guidance/strength</strong> : fidélité au prompt. Trop haut = rigidité ; trop bas = dérive.</li>
+<li><strong>Résolution/ratio</strong> : commencez modeste pour itérer vite ; upscalez quand le cadrage est validé.</li>
+<li><strong>Seed/variations</strong> : lock = reproductibilité ; unlock = exploration.</li>
+<li><strong>Taille de lot</strong> : 2–4 images évitent de saturer la galerie tout en comparant efficacement.</li>
+</ul>
+<p>
           Quand un rendu est « presque bon », ajustez d’abord la <strong>lumière</strong> et la <strong>caméra</strong> :
-          « rim light doux », « 35&nbsp;mm », « angle œil », « lumière de fenêtre matinale ».
+          « rim light doux », « 35 mm », « angle œil », « lumière de fenêtre matinale ».
         </p>
-      </div>
-    </section>
-
-    <section id="upscaling" class="section" aria-labelledby="upscaling-title">
-      <div class="container">
-        <h2 id="upscaling-title">Upscaling, netteté & export</h2>
-        <p>
+</div>
+</section>
+<section aria-labelledby="upscaling-title" class="section" id="upscaling">
+<div class="container">
+<h2 id="upscaling-title">Upscaling, netteté &amp; export</h2>
+<p>
           Décidez la composition sur des rendus modestes ; upscalez ensuite la meilleure version. Inspectez bords,
           textures fines et zones textuelles après upscale. En cas d’artefact, revenez au canvas pour une retouche ciblée.
         </p>
-        <ul class="bullet">
-          <li><strong>Formats</strong> : PNG pour net et détourages ; JPG pour le web léger. Conservez un maître sans perte.</li>
-          <li><strong>Couleur</strong> : sRGB pour le web ; imprimeur = profils/dpi/spécifs à valider.</li>
-          <li><strong>Métadonnées</strong> : enregistrez prompts/paramètres à côté du fichier maître.</li>
-          <li><strong>Nom de fichier</strong> : <code>projet-sujet-angle-vX-seedY.ext</code> — facilite la recherche.</li>
-        </ul>
-        <div class="cta-row">
-          <a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" target="_blank" rel="nofollow noopener sponsored">Ouvrir Leonardo.ai</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="templates" class="section" aria-labelledby="templates-title">
-      <div class="container">
-        <h2 id="templates-title">Modèles de prompts par cas d’usage</h2>
-
-        <h3>Packshot e-commerce (héros)</h3>
-        <p class="example"><strong>Prompt :</strong> « bouteille inox brossé, fond dégradé clair, angle trois-quarts, studio softbox avec léger rim light, photo produit minimal éditorial, reflets contrôlés, pas de texte, détails nets ».</p>
-        <ul class="bullet">
-          <li>Comparer 3–4 variations pour contrôler les reflets.</li>
-          <li>Canvas : masque sur l’étiquette pour ajouter/retirer un logo proprement.</li>
-          <li>Export : 1:1 marketplaces, 4:5 flux social ; garder fond homogène sur la gamme.</li>
-        </ul>
-
-        <h3>Keyframe concept (jeu/film)</h3>
-        <p class="example"><strong>Prompt :</strong> « temple forestier ancien au crépuscule, rayons volumétriques, pierres couvertes de mousse, atmosphère cinématique, concept art détaillé, ciel dramatique, rendu riche ».</p>
-        <ul class="bullet">
-          <li>Verrouiller la seed pour tester l’éclairage à cadrage constant.</li>
-          <li>Canvas : inpaint sur la statue, outpaint pour crop bannière.</li>
-          <li>Export : 16:9 paysage + recadrages pour planches de présentation.</li>
-        </ul>
-
-        <h3>Miniature marketing</h3>
-        <p class="example"><strong>Prompt :</strong> « formes abstraites audacieuses aux couleurs de marque, fond géométrique propre, contraste fort, style éditorial moderne, pas de texte, bords nets, point focal clair ».</p>
-        <ul class="bullet">
-          <li>Veiller aux espaces négatifs pour vos surimpressions typographiques.</li>
-          <li>Canvas : affiner les bords pour éviter l’aliasing.</li>
-          <li>Export : dimensions spécifiques à la plateforme, vérifier lisibilité mobile.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="conformite" class="section" aria-labelledby="conformite-title">
-      <div class="container">
-        <h2 id="conformite-title">Usage sûr & conforme</h2>
-        <ul class="bullet">
-          <li>Utiliser des idées originales ou des références sous licence ; respecter la PI et les marques.</li>
-          <li>Suivre les politiques de contenu de la plateforme et le droit local ; ne pas inclure de données personnelles sensibles.</li>
-          <li>Avec des assets clients, confirmer les droits d’utilisation dans des outils IA.</li>
-          <li>Documenter l’assistance IA si vos clients/plateformes l’exigent.</li>
-        </ul>
-        <p class="muted">
+<ul class="bullet">
+<li><strong>Formats</strong> : PNG pour net et détourages ; JPG pour le web léger. Conservez un maître sans perte.</li>
+<li><strong>Couleur</strong> : sRGB pour le web ; imprimeur = profils/dpi/spécifs à valider.</li>
+<li><strong>Métadonnées</strong> : enregistrez prompts/paramètres à côté du fichier maître.</li>
+<li><strong>Nom de fichier</strong> : <code>projet-sujet-angle-vX-seedY.ext</code> — facilite la recherche.</li>
+</ul>
+<div class="cta-row">
+<a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" rel="nofollow noopener sponsored noreferrer" target="_blank">Ouvrir Leonardo.ai</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="templates-title" class="section" id="templates">
+<div class="container">
+<h2 id="templates-title">Modèles de prompts par cas d’usage</h2>
+<h3>Packshot e-commerce (héros)</h3>
+<p class="example"><strong>Prompt :</strong> « bouteille inox brossé, fond dégradé clair, angle trois-quarts, studio softbox avec léger rim light, photo produit minimal éditorial, reflets contrôlés, pas de texte, détails nets ».</p>
+<ul class="bullet">
+<li>Comparer 3–4 variations pour contrôler les reflets.</li>
+<li>Canvas : masque sur l’étiquette pour ajouter/retirer un logo proprement.</li>
+<li>Export : 1:1 marketplaces, 4:5 flux social ; garder fond homogène sur la gamme.</li>
+</ul>
+<h3>Keyframe concept (jeu/film)</h3>
+<p class="example"><strong>Prompt :</strong> « temple forestier ancien au crépuscule, rayons volumétriques, pierres couvertes de mousse, atmosphère cinématique, concept art détaillé, ciel dramatique, rendu riche ».</p>
+<ul class="bullet">
+<li>Verrouiller la seed pour tester l’éclairage à cadrage constant.</li>
+<li>Canvas : inpaint sur la statue, outpaint pour crop bannière.</li>
+<li>Export : 16:9 paysage + recadrages pour planches de présentation.</li>
+</ul>
+<h3>Miniature marketing</h3>
+<p class="example"><strong>Prompt :</strong> « formes abstraites audacieuses aux couleurs de marque, fond géométrique propre, contraste fort, style éditorial moderne, pas de texte, bords nets, point focal clair ».</p>
+<ul class="bullet">
+<li>Veiller aux espaces négatifs pour vos surimpressions typographiques.</li>
+<li>Canvas : affiner les bords pour éviter l’aliasing.</li>
+<li>Export : dimensions spécifiques à la plateforme, vérifier lisibilité mobile.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="conformite-title" class="section" id="conformite">
+<div class="container">
+<h2 id="conformite-title">Usage sûr &amp; conforme</h2>
+<ul class="bullet">
+<li>Utiliser des idées originales ou des références sous licence ; respecter la PI et les marques.</li>
+<li>Suivre les politiques de contenu de la plateforme et le droit local ; ne pas inclure de données personnelles sensibles.</li>
+<li>Avec des assets clients, confirmer les droits d’utilisation dans des outils IA.</li>
+<li>Documenter l’assistance IA si vos clients/plateformes l’exigent.</li>
+</ul>
+<p class="muted">
           Les conditions et fonctionnalités peuvent évoluer. Référez-vous au site de l’éditeur pour la politique actuelle,
           l’attribution et les limites de licence.
         </p>
-      </div>
-    </section>
-
-    <section id="depannage" class="section" aria-labelledby="depannage-title">
-      <div class="container">
-        <h2 id="depannage-title">Dépannage : problèmes courants</h2>
-
-        <h3>Banding / lumière terne</h3>
-        <ul class="bullet">
-          <li>Préciser la source : « key light douce + rim léger ».</li>
-          <li>Éviter les adjectifs contradictoires (ex. « dramatique » + « plat »).</li>
-        </ul>
-
-        <h3>Mains, visages, petits objets imprécis</h3>
-        <ul class="bullet">
-          <li>Canvas rapproché + sous-prompt ciblé (anatomie, texture).</li>
-          <li>Référence visuelle si possible pour ancrer la correction.</li>
-        </ul>
-
-        <h3>Texte/logo déformé</h3>
-        <ul class="bullet">
-          <li>Négatif : « pas de texte, pas de filigrane » pendant la génération.</li>
-          <li>Ajouter la typographie en post-prod vectorielle après export.</li>
-        </ul>
-
-        <h3>Série incohérente</h3>
-        <ul class="bullet">
-          <li>Réappliquer la fiche de style (mêmes termes, même lumière).</li>
-          <li>Envisager un style/modèle dédié si proposé.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="productivite" class="section" aria-labelledby="productivite-title">
-      <div class="container">
-        <h2 id="productivite-title">Productivité & organisation</h2>
-        <ul class="bullet">
-          <li><strong>Itérer petit</strong> : basse résolution + petits lots = cycles rapides.</li>
-          <li><strong>Nettoyer la galerie</strong> : archiver les essais évidents pour garder une vue claire.</li>
-          <li><strong>Historiser</strong> : fichez prompt/seed/réglages gagnants ; capturez aussi les « presque bons ».</li>
-          <li><strong>Nommage systématique</strong> : projet-sujet-angle-vX-seedY — vos futurs vous diront merci.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="suite" class="section" aria-labelledby="suite-title">
-      <div class="container">
-        <h2 id="suite-title">Et la suite ?</h2>
-        <p>
+</div>
+</section>
+<section aria-labelledby="depannage-title" class="section" id="depannage">
+<div class="container">
+<h2 id="depannage-title">Dépannage : problèmes courants</h2>
+<h3>Banding / lumière terne</h3>
+<ul class="bullet">
+<li>Préciser la source : « key light douce + rim léger ».</li>
+<li>Éviter les adjectifs contradictoires (ex. « dramatique » + « plat »).</li>
+</ul>
+<h3>Mains, visages, petits objets imprécis</h3>
+<ul class="bullet">
+<li>Canvas rapproché + sous-prompt ciblé (anatomie, texture).</li>
+<li>Référence visuelle si possible pour ancrer la correction.</li>
+</ul>
+<h3>Texte/logo déformé</h3>
+<ul class="bullet">
+<li>Négatif : « pas de texte, pas de filigrane » pendant la génération.</li>
+<li>Ajouter la typographie en post-prod vectorielle après export.</li>
+</ul>
+<h3>Série incohérente</h3>
+<ul class="bullet">
+<li>Réappliquer la fiche de style (mêmes termes, même lumière).</li>
+<li>Envisager un style/modèle dédié si proposé.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="productivite-title" class="section" id="productivite">
+<div class="container">
+<h2 id="productivite-title">Productivité &amp; organisation</h2>
+<ul class="bullet">
+<li><strong>Itérer petit</strong> : basse résolution + petits lots = cycles rapides.</li>
+<li><strong>Nettoyer la galerie</strong> : archiver les essais évidents pour garder une vue claire.</li>
+<li><strong>Historiser</strong> : fichez prompt/seed/réglages gagnants ; capturez aussi les « presque bons ».</li>
+<li><strong>Nommage systématique</strong> : projet-sujet-angle-vX-seedY — vos futurs vous diront merci.</li>
+</ul>
+</div>
+</section>
+<section aria-labelledby="suite-title" class="section" id="suite">
+<div class="container">
+<h2 id="suite-title">Et la suite ?</h2>
+<p>
           Choisissez un cas d’usage et produisez 3–5 variantes. Notez ce qui marche, corrigez localement au canvas, puis
           préparez vos exports finaux. Quand vous serez à l’aise, explorez des fonctions avancées telles que des
           styles/modèles personnalisés ou des intégrations/API si elles sont proposées. Pour plans, limites et docs à
           jour, référez-vous au site officiel.
         </p>
-        <div class="cta-row">
-          <a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" target="_blank" rel="nofollow noopener sponsored">Try Leonardo.ai</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="faq-article" class="section" aria-labelledby="faq-article-title">
-      <div class="container">
-        <h2 id="faq-article-title">FAQ de l’article</h2>
-
-        <details class="faq-block">
-          <summary>La longueur du prompt influence-t-elle vraiment ?</summary>
-          <div><p>Il n’y a pas de taille « magique ». L’important est la clarté : sujet, environnement, lumière, style, contraintes de qualité. Supprimez les adjectifs décoratifs.</p></div>
-        </details>
-
-        <details class="faq-block">
-          <summary>Puis-je réutiliser une seed pour garder le cadrage ?</summary>
-          <div><p>Oui. Bloquer la seed permet d’explorer de petites variantes autour d’un rendu apprécié, utile pour des micro-ajustements.</p></div>
-        </details>
-
-        <details class="faq-block">
-          <summary>Comment gérer des couleurs de marque ?</summary>
-          <div><p>Incluez des termes de palette (« violet marque et cyan ») et, si possible, utilisez une référence. Ajustez la saturation en sortie pour des correspondances précises.</p></div>
-        </details>
-
-        <details class="faq-block">
-          <summary>Où trouver les infos de prix/limites à jour ?</summary>
-          <div><p>Les offres évoluent. Consultez le site officiel pour les informations actuelles avant une décision d’achat.</p></div>
-        </details>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
-    <div class="container footer-inner">
-      <div class="foot-col">
-        <a class="logo-link" href="/fr/" aria-label="Vividyard — Accueil">
-          <img src="/images/vividyard-logo.png" width="120" height="28" alt="Logo Vividyard" loading="lazy" decoding="async" />
-        </a>
-        <p class="small">SASU E-Com Shop — SIREN 934 934 308<br>60 rue François 1er, 75008 Paris<br><a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a></p>
-        <p class="small disclosure">Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous.</p>
-      </div>
-      <nav class="foot-nav" aria-label="Navigation pied de page">
-        <ul>
-          <li><a href="/fr/blog.html">Blog</a></li>
-          <li><a href="/fr/mentions-legales.html">Mentions légales</a></li>
-          <li><a href="/fr/politique-de-confidentialite.html">Politique de confidentialité</a></li>
-          <li><a href="/blog-1.html">Version anglaise</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="container foot-bottom">
-      <p class="tiny">&copy; <span id="year"></span> Vividyard. Tous droits réservés.</p>
-    </div>
-  </footer>
-
-  <!-- Bannière cookies (Consent Mode v2) -->
-  <div id="cookie-banner" class="cookie-banner" role="dialog" aria-modal="true" aria-labelledby="cookie-title" aria-describedby="cookie-desc" hidden>
-    <div class="cookie-inner">
-      <h2 id="cookie-title">Cookies & confidentialité</h2>
-      <p id="cookie-desc">Nous utilisons des cookies pour mesurer l’audience et améliorer le site. Vous pouvez accepter, refuser ou gérer vos réglages. L’analytics est désactivé par défaut.</p>
-      <div class="cookie-actions">
-        <button id="cookie-reject" class="btn ghost">Refuser</button>
-        <button id="cookie-settings" class="btn secondary">Réglages</button>
-        <button id="cookie-accept" class="btn primary">Accepter</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Aide inline légère -->
-  <script>
+<div class="cta-row">
+<a class="btn primary" href="AFFILIATE_URL_PLACEHOLDER" rel="nofollow noopener sponsored noreferrer" target="_blank">Try Leonardo.ai</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="faq-article-title" class="section" id="faq-article">
+<div class="container">
+<h2 id="faq-article-title">FAQ de l’article</h2>
+<details class="faq-block">
+<summary>La longueur du prompt influence-t-elle vraiment ?</summary>
+<div><p>Il n’y a pas de taille « magique ». L’important est la clarté : sujet, environnement, lumière, style, contraintes de qualité. Supprimez les adjectifs décoratifs.</p></div>
+</details>
+<details class="faq-block">
+<summary>Puis-je réutiliser une seed pour garder le cadrage ?</summary>
+<div><p>Oui. Bloquer la seed permet d’explorer de petites variantes autour d’un rendu apprécié, utile pour des micro-ajustements.</p></div>
+</details>
+<details class="faq-block">
+<summary>Comment gérer des couleurs de marque ?</summary>
+<div><p>Incluez des termes de palette (« violet marque et cyan ») et, si possible, utilisez une référence. Ajustez la saturation en sortie pour des correspondances précises.</p></div>
+</details>
+<details class="faq-block">
+<summary>Où trouver les infos de prix/limites à jour ?</summary>
+<div><p>Les offres évoluent. Consultez le site officiel pour les informations actuelles avant une décision d’achat.</p></div>
+</details>
+</div>
+</section>
+</main>
+<footer aria-label="Pied de page" class="site-footer" role="contentinfo">
+<div class="container footer-inner">
+<div class="foot-col">
+<a aria-label="Vividyard — Accueil" class="logo-link" href="/fr/">
+<img alt="Logo Vividyard" decoding="async" height="28" loading="lazy" src="/images/vividyard-logo.png" width="120"/>
+</a>
+<p class="small">SASU E-Com Shop — SIREN 934 934 308<br/>60 rue François 1er, 75008 Paris<br/><a href="mailto:contact.ecomshopfrance@gmail.com">contact.ecomshopfrance@gmail.com</a></p>
+<p class="small disclosure">Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous.</p>
+</div>
+<nav aria-label="Navigation pied de page" class="foot-nav">
+<ul>
+<li><a href="/fr/blog.html">Blog</a></li>
+<li><a href="/fr/mentions-legales.html">Mentions légales</a></li>
+<li><a href="/fr/politique-de-confidentialite.html">Politique de confidentialité</a></li>
+<li><a href="/blog-1.html">Version anglaise</a></li>
+</ul>
+</nav>
+</div>
+<div class="container foot-bottom">
+<p class="tiny">© <span id="year"></span> Vividyard. Tous droits réservés.</p>
+</div>
+</footer>
+<!-- Bannière cookies (Consent Mode v2) -->
+<div aria-describedby="cookie-desc" aria-labelledby="cookie-title" aria-modal="true" class="cookie-banner" hidden="" id="cookie-banner" role="dialog">
+<div class="cookie-inner">
+<h2 id="cookie-title">Cookies &amp; confidentialité</h2>
+<p id="cookie-desc">Nous utilisons des cookies pour mesurer l’audience et améliorer le site. Vous pouvez accepter, refuser ou gérer vos réglages. L’analytics est désactivé par défaut.</p>
+<div class="cookie-actions">
+<button class="btn ghost" id="cookie-reject">Refuser</button>
+<button class="btn secondary" id="cookie-settings">Réglages</button>
+<button class="btn primary" id="cookie-accept">Accepter</button>
+</div>
+</div>
+</div>
+<!-- Aide inline légère -->
+<script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-
-  <!-- JS principal -->
-  <script src="/assets/main.js" defer></script>
+<!-- JS principal -->
+<script defer="" src="/assets/main.js"></script>
 </body>
 </html>
