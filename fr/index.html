@@ -44,7 +44,7 @@
 <!-- Theme (light, no dark mode) -->
 <meta name="theme-color" content="#F8FAFC"/>
 <!-- Styles -->
-<link href="/assets/styles.css" rel="stylesheet"/>
+<link href="/assets/styles.min.css" rel="stylesheet"/>
 <!-- Google tag (gtag.js) — intégré exactement tel que fourni -->
 <!-- JSON-LD: Organization -->
 <!-- JSON-LD: WebSite + SearchAction (FR) -->
@@ -182,7 +182,7 @@
 <p class="disclosure">Ce site contient des liens d’affiliation. Nous pouvons percevoir une commission sans coût supplémentaire pour vous.</p>
 </div>
 <figure class="hero-figure">
-<img alt="Leonardo.ai — exemple d’interface et de rendu" decoding="async" height="630" loading="eager" src="/images/capture-hero-leonardo.ai-fr.png" width="1200"/>
+<picture><source srcset="/images/capture-hero-leonardo.ai-fr.webp" type="image/webp"><img alt="Leonardo.ai — exemple d’interface et de rendu" decoding="async" height="630" loading="eager" src="/images/capture-hero-leonardo.ai-fr.png" width="1200"/></picture>
 <figcaption class="visually-hidden">Exemple de sortie générée avec un outil d’images IA.</figcaption>
 </figure>
 </div>
@@ -296,7 +296,7 @@
 <h2 id="gallery-title">Exemples de rendus</h2>
 <div class="gallery-grid">
 <figure class="shot">
-<img alt="Exemple d’image IA — scène concept" decoding="async" height="630" loading="lazy" src="/images/capture-hero-leonardo.ai-fr.png" width="1200"/>
+<picture><source srcset="/images/capture-hero-leonardo.ai-fr.webp" type="image/webp"><img alt="Exemple d’image IA — scène concept" decoding="async" height="630" loading="lazy" src="/images/capture-hero-leonardo.ai-fr.png" width="1200"/></picture>
 <figcaption>Exemple de sortie</figcaption>
 </figure>
 <figure class="shot">
@@ -409,6 +409,6 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 <!-- JS principal (redir auto FR, switcher, vidéo lazy, consent, etc.) -->
-<script defer="" src="/assets/main.js"></script>
+<script defer="" src="/assets/main.min.js"></script>
 </body>
 </html>

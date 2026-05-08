@@ -45,7 +45,7 @@
 <!-- Theme (light, no dark mode) -->
 <meta name="theme-color" content="#F8FAFC"/>
 <!-- Styles -->
-<link href="/assets/styles.css" rel="stylesheet"/>
+<link href="/assets/styles.min.css" rel="stylesheet"/>
 <!-- Google tag (gtag.js) — integrated exactly as provided, with CSP nonce for strict policy -->
 <!-- JSON-LD: Organization -->
 <!-- JSON-LD: WebSite + SearchAction -->
@@ -183,7 +183,7 @@
 <p class="disclosure">Este sitio contiene enlaces de afiliados. Podemos ganar una comisión sin costo adicional para usted.</p>
 </div>
 <figure class="hero-figure">
-<img alt="Leonardo.ai: interfaz de muestreo y salida" decoding="async" height="630" loading="eager" src="/images/capture-hero-leonardo.ai-en.png" width="1200"/>
+<picture><source srcset="/images/capture-hero-leonardo.ai-en.webp" type="image/webp"><img alt="Leonardo.ai: interfaz de muestreo y salida" decoding="async" height="630" loading="eager" src="/images/capture-hero-leonardo.ai-en.png" width="1200"/></picture>
 <figcaption class="visually-hidden">Ejemplo de salida creado con una herramienta de imagen AI.</figcaption>
 </figure>
 </div>
@@ -297,7 +297,7 @@
 <h2 id="gallery-title">Productos de ejemplo</h2>
 <div class="gallery-grid">
 <figure class="shot">
-<img alt="Muestra de imagen de AI - concepto de escena" decoding="async" height="630" loading="lazy" src="/images/capture-hero-leonardo.ai-en.png" width="1200"/>
+<picture><source srcset="/images/capture-hero-leonardo.ai-en.webp" type="image/webp"><img alt="Muestra de imagen de AI - concepto de escena" decoding="async" height="630" loading="lazy" src="/images/capture-hero-leonardo.ai-en.png" width="1200"/></picture>
 <figcaption>Salida de la muestra</figcaption>
 </figure>
 <figure class="shot">
@@ -411,6 +411,6 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 <!-- Main JS (handles: lang redirect & switcher, lazy video, consent, etc.) -->
-<script defer="" nonce="{{NONCE}}" src="/assets/main.js"></script>
+<script defer="" nonce="{{NONCE}}" src="/assets/main.min.js"></script>
 </body>
 </html>
