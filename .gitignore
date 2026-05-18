@@ -9,9 +9,9 @@ Thumbs.db
 
 # Old static site files (no longer in use)
 assets/
-de/
-es/
-fr/
+/de/
+/es/
+/fr/
 sitemaps/
 *.html
 _redirects
