@@ -1,0 +1,30 @@
+# Next.js
+.next/
+out/
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old static site files (no longer in use)
+assets/
+de/
+es/
+fr/
+sitemaps/
+*.html
+_redirects
+robots.txt
+sitemap.xml
+tools/
+images/capture-*.png
+images/capture-*.webp
+images/dashboard-*.png
+images/dashboard-*.webp
+images/images.zip
+
+# Env
+.env
+.env.local
+.env*.local
