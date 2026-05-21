@@ -5,10 +5,10 @@ export const SITE = {
   productName: 'AI Creative Tools',
   ga4Id: 'G-PLACEHOLDER',
   affiliates: {
-    vecteezy:    'VECTEEZY_AFFILIATE_URL_PLACEHOLDER',
+    vecteezy:    'https://vecteezycom.sjv.io/QYn4Jx',
     rawpixel:    'RAWPIXEL_AFFILIATE_URL_PLACEHOLDER',
     shutterstock:'SHUTTERSTOCK_AFFILIATE_URL_PLACEHOLDER',
-    placeit:     'PLACEIT_AFFILIATE_URL_PLACEHOLDER',
+    placeit:     'https://1.envato.market/GbVGn9',
     adobe:       'ADOBE_AFFILIATE_URL_PLACEHOLDER',
   },
   companyName: 'E-Com Shop',
